@@ -1,7 +1,7 @@
 # MicroBioBase 🔬
 
 
-**MicroBioBase** é uma enciclopédia web interativa e de código aberto em microbiologia, oferecendo acesso rápido e confiável a informações sobre microrganismos e antibióticos em uma interface moderna, responsiva e fácil de usar.
+**MicroBioBase** é uma enciclopédia web interativa e de código aberto dedicada à microbiologia. Reúne informações confiáveis sobre microrganismos e antibióticos em um ambiente rápido, responsivo e fácil de usar, apoiando estudantes, professores e profissionais da saúde no acesso ao conhecimento científico.
 
 ---
 
