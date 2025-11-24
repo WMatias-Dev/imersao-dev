@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MicroBioBase</title> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="brand">
+      <img src="assets/logo.png" alt="MicroBioBase" class="site-logo" draggable="false" oncontextmenu="return false;">
+      <span class="visually-hidden">MicroBioBase</span>
+    </h1>
+    <div class="container">
+      <div class="controls">
+        <input id="search" type="search" placeholder="Pesquisar (nome, gram, morfologia, observações)..." aria-label="Pesquisar">
+        <div id="items-count" class="items-count" aria-live="polite" title="Quantidade de itens visíveis">Mostrando 0</div>
+        <button id="theme-toggle" class="btn-theme-toggle small" aria-pressed="false" title="Alternar tema">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+          <span class="theme-label">Modo Escuro</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="layout">
+      <nav class="sidebar" aria-label="Categorias">
+        <ul class="nav-list">
+          <li><button class="nav-btn active" data-cat="all">Todos os microrganismos</button></li>
+          <li><button class="nav-btn" data-cat="gram+">Gram-positivos</button></li>
+          <li><button class="nav-btn" data-cat="gram-">Gram-negativos</button></li>
+          <li><button class="nav-btn" data-cat="Fungo">Fungos</button></li>
+          <li><button class="nav-btn" data-cat="Bactéria">Bactérias</button></li>
+          <li><button class="nav-btn" data-cat="antibiotics">Antibióticos</button></li>
+          <li><button class="nav-btn" data-cat="favorites">Favoritos</button></li>
+        </ul>
+        <div class="sidebar-actions">
+          <button id="export-image-btn" class="btn-export small" aria-label="Exportar imagem dos cards">Exportar Imagem</button>
+          <button id="help-btn" class="btn-help small" aria-label="Ajuda">Ajuda</button>
+          <button id="about-btn" class="btn-about small" aria-label="Sobre a página">Sobre</button>
+        </div>
+      </nav>
+
+      <main class="main">
+        <section class="cards-area">
+          <div id="cards" class="cards-grid" role="list" aria-live="polite">
+            <!-- Cards serão adicionados pelo script.js -->
+          </div>
+        </section>
+
+        <aside id="detail" class="detail-panel" aria-hidden="true">
+          <button id="detail-close" class="detail-close" aria-label="Fechar painel">×</button>
+          <div id="detail-content"></div>
+        </aside>
+      </main>
+    </div>
+  </div>
+
+  <div id="help-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="help-close">×</button>
+      <h2>S / I / R</h2>
+      <p>Indicadores de interpretação clínica (S = Sensível, I = Intermediário, R = Resistente).</p>
+      <ul>
+        <li><strong style="color:var(--success)">S</strong> - Sensível</li>
+        <li><strong style="color:var(--warning)">I</strong> - Intermediário</li>
+        <li><strong style="color:var(--danger)">R</strong> - Resistente</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="about-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="about-close">×</button>
+      <h2>MicroBioBase</h2>
+      <p>
+        MicroBioBase é uma enciclopédia web interativa e de código aberto voltada para microbiologia. Seu objetivo é oferecer acesso rápido e confiável a informações sobre microrganismos e antibióticos, organizadas de forma clara e estruturada. Desenvolvida com tecnologias web modernas, a aplicação é responsiva, leve e fácil de usar, garantindo boa experiência tanto em computadores quanto em dispositivos móveis.
+      </p>
+      <p>
+        O projeto agrega valor à comunidade científica e educacional ao centralizar dados essenciais em um ambiente acessível e gratuito. Isso facilita o aprendizado de estudantes, apoia professores em atividades de ensino e serve como referência prática para profissionais da saúde. Por ser open source, a MicroBioBase também contribui para a transparência e a evolução contínua de ferramentas digitais voltadas à ciência, reforçando a importância da democratização do conhecimento em microbiologia.
+      </p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">MicroBioBase • versão 1.0</div>
+  </footer>
+
+  <!-- html2canvas -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <!-- script principal -->
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,1150 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "s_aureus",
+      "image": "./assets/images/staphylococcus_aureus.png",
+      "type": "microbe",
+      "name": "Staphylococcus aureus",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "cocos em cachos",
+      "cultivo": "37°C, ágar sangue",
+      "description": "Comum na pele e mucosas; pode causar infecções de pele, sepse, endocardite e pneumonia.",
+      "resistencia": [
+        "beta-lactamases (penicilina)",
+        "MRSA - alteração PBP2a"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Oxacilina",
+          "breakpoint": {
+            "S": "≤2 µg/mL",
+            "I": "4 µg/mL",
+            "R": "≥8 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Vancomicina",
+          "breakpoint": {
+            "S": "≤2 µg/mL",
+            "I": "-",
+            "R": "≥16 µg/mL"
+          },
+          "fonte": "EUCAST"
+        },
+        {
+          "nome": "Clindamicina",
+          "breakpoint": {
+            "S": "≤0.5 µg/mL",
+            "I": "1 µg/mL",
+            "R": "≥2 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "s_epidermidis",
+      "image": "./assets/images/staphylococcus_epidermis.png",
+      "type": "microbe",
+      "name": "Staphylococcus epidermidis",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "cocos em cachos",
+      "cultivo": "37°C, ágar sangue",
+      "description": "Comensal da pele; associado a infecções de próteses e cateteres por formação de biofilme.",
+      "resistencia": [
+        "resistência por biofilme",
+        "mecA em cepas resistentes"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Oxacilina",
+          "breakpoint": {
+            "S": "≤2 µg/mL",
+            "I": "4 µg/mL",
+            "R": "≥8 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Vancomicina",
+          "breakpoint": {
+            "S": "≤2 µg/mL",
+            "I": "-",
+            "R": "≥16 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "streptococcus_pyogenes",
+      "image": "./assets/images/streptococcus_pyogenes.png",
+      "type": "microbe",
+      "name": "Streptococcus pyogenes",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "cocos em cadeias",
+      "cultivo": "37°C, ágar sangue (beta-hemólise)",
+      "description": "Causa faringite, impetigo, celulite e complicações pós-infecciosas como febre reumática.",
+      "resistencia": [
+        "resistência ocasional a macrolídeos (erm, mef)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Penicilina",
+          "breakpoint": {
+            "S": "≤0.06 µg/mL",
+            "I": "0.12–1 µg/mL",
+            "R": "≥2 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Eritromicina",
+          "breakpoint": {
+            "S": "≤0.25 µg/mL",
+            "I": "0.5 µg/mL",
+            "R": "≥1 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "enterococcus_faecalis",
+      "image": "./assets/images/enterococcus_faecalis.png",
+      "type": "microbe",
+      "name": "Enterococcus faecalis",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "cocos em pares e cadeias",
+      "cultivo": "37°C, ágar sangue; cresce em ambientes salinos",
+      "description": "Habitante intestinal que pode causar ITU, endocardite e infecções associadas ao ambiente hospitalar.",
+      "resistencia": [
+        "resistência intrínseca a muitos beta-lactâmicos",
+        "VRE (vancomicina resistente) em algumas cepas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ampicilina",
+          "breakpoint": {
+            "S": "≤2 µg/mL",
+            "I": "4 µg/mL",
+            "R": "≥8 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Vancomicina",
+          "breakpoint": {
+            "S": "≤4 µg/mL",
+            "I": "-",
+            "R": "≥32 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "micrococcus_luteus",
+      "image": "./assets/images/micrococcus_luteus.png",
+      "type": "microbe",
+      "name": "Micrococcus luteus",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "cocos em cachos",
+      "cultivo": "25–37°C, ágar sangue",
+      "description": "Comum na pele e ambiente; raramente patogênico, ocasionalmente causa infecções oportunistas.",
+      "resistencia": [
+        "resistência variável a penicilinas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Penicilina",
+          "breakpoint": {
+            "S": "≤0.12 µg/mL",
+            "I": "0.25–1 µg/mL",
+            "R": "≥2 µg/mL"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "s_pneumoniae",
+      "image": "./assets/images/streptococcus_pneumoniae.png",
+      "type": "microbe",
+      "name": "Streptococcus pneumoniae",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "diplococos",
+      "cultivo": "37°C, ágar sangue (alfa-hemólise)",
+      "description": "Principal agente de pneumonia comunitária, otite e meningite em crianças e idosos.",
+      "resistencia": [
+        "alterações em PBP (redução de sensibilidade a penicilina)",
+        "resistência a macrolídeos em algumas linhagens"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Penicilina",
+          "breakpoint": {
+            "S": "≤0.06 µg/mL",
+            "I": "0.12–1 µg/mL",
+            "R": "≥2 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Azitromicina",
+          "breakpoint": {
+            "S": "≤0.25 µg/mL",
+            "I": "0.5 µg/mL",
+            "R": "≥1 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "neisseria_meningitidis",
+      "image": "./assets/images/neisseria_meningitidis.png",
+      "type": "microbe",
+      "name": "Neisseria meningitidis",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "diplococos",
+      "cultivo": "37°C, ágar chocolate ou Thayer-Martin",
+      "description": "Causa meningite meningocócica e sepse fulminante; coloniza nasofaringe.",
+      "resistencia": [
+        "resistência emergente a ciprofloxacino em algumas regiões"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ceftriaxona",
+          "breakpoint": {
+            "S": "≤0.12 µg/mL",
+            "I": "0.25 µg/mL",
+            "R": "≥0.5 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Ciprofloxacino",
+          "breakpoint": {
+            "S": "≤0.06 µg/mL",
+            "I": "0.12 µg/mL",
+            "R": "≥0.5 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "neisseria_gonorrhoeae",
+      "image": "./assets/images/neisseria_gonorrhoeae.png",
+      "type": "microbe",
+      "name": "Neisseria gonorrhoeae",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "diplococos",
+      "cultivo": "37°C, ágar Thayer-Martin",
+      "description": "Neisseria gonorrhoeae é uma bactéria patogênica responsável pela gonorreia, transmitida sexualmente e associada a infecções genitais, oculares e sistêmicas.",
+      "resistencia": [
+        "mutações em penA (cefalosporinas) e gyrA (quinolonas)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ceftriaxona",
+          "breakpoint": {
+            "S": "≤0.125 µg/mL",
+            "I": "0.25 µg/mL",
+            "R": "≥0.5 µg/mL"
+          },
+          "fonte": "EUCAST"
+        },
+        {
+          "nome": "Azitromicina",
+          "breakpoint": {
+            "S": "≤0.25 µg/mL",
+            "I": "0.5 µg/mL",
+            "R": "≥1 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "moraxella_catarrhalis",
+      "image": "./assets/images/moraxella_catarrhalis.png",
+      "type": "microbe",
+      "name": "Moraxella catarrhalis",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "diplococos",
+      "cultivo": "37°C, ágar chocolate",
+      "description": "Associada a infecções respiratórias e otites, frequentemente em crianças.",
+      "resistencia": [
+        "produção de beta-lactamase (resistência a penicilinas simples)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Amoxicilina-clavulanato",
+          "breakpoint": {
+            "S": "≤2/1 µg/mL",
+            "I": "-",
+            "R": "≥8/4 µg/mL"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "e_coli",
+      "image": "./assets/images/Escherichia_coli.png",
+      "type": "microbe",
+      "name": "Escherichia coli",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar MacConkey",
+      "description": "Enterobactéria do trato intestinal; causa ITU, septicemias e gastroenterites.",
+      "resistencia": [
+        "ESBLs (beta-lactamase de espectro estendido)",
+        "mutações em gyrA (quinolonas)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Cefotaxima",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Ciprofloxacino",
+          "breakpoint": {
+            "S": "≤0.25 µg/mL",
+            "I": "0.5 µg/mL",
+            "R": "≥1 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "klebsiella_pneumoniae",
+      "image": "./assets/images/klebsiella_pneumoniae.png",
+      "type": "microbe",
+      "name": "Klebsiella pneumoniae",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar MacConkey",
+      "description": "Causa pneumonia hospitalar, ITU e infecções invasivas; cápsula polissacarídica importante para virulência.",
+      "resistencia": [
+        "KPC, ESBLs"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ceftriaxona",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Meropenem",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "salmonella_enterica",
+      "image": "./assets/images/salmonella_enterica.png",
+      "type": "microbe",
+      "name": "Salmonella enterica",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar MacConkey",
+      "description": "Gastroenterite e febres entéricas dependendo do sorotipo; transmissão fecal-oral.",
+      "resistencia": [
+        "resistência a quinolonas e tetraciclinas em cepas emergentes"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ciprofloxacino",
+          "breakpoint": {
+            "S": "≤0.06 µg/mL",
+            "I": "0.12–0.5 µg/mL",
+            "R": "≥1 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "shigella_flexneri",
+      "image": "./assets/images/shigella_flexneri.png",
+      "type": "microbe",
+      "name": "Shigella flexneri",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar MacConkey",
+      "description": "Causa disenteria bacilar; baixa dose infectante e transmissibilidade fecal-oral.",
+      "resistencia": [
+        "resistência a sulfonamidas e tetraciclinas em cepas históricas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ciprofloxacino",
+          "breakpoint": {
+            "S": "≤0.25 µg/mL",
+            "I": "0.5 µg/mL",
+            "R": "≥1 µg/mL"
+          },
+          "fonte": "EUCAST"
+        }
+      ]
+    },
+    {
+      "id": "proteus_mirabilis",
+      "image": "./assets/images/proteus_mirabilis.png",
+      "type": "microbe",
+      "name": "Proteus mirabilis",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar MacConkey; movimento por swarming em ágar",
+      "description": "Proteus mirabilis é uma bactéria conhecida por causar infecções do trato urinário, especialmente em pacientes hospitalizados ou com cateteres.",
+      "resistencia": [
+        "resistência adquirida a diversas classes antimicrobianas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Cefotaxima",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "haemophilus_influenzae",
+      "image": "./assets/images/haemophilus_influenzae.png",
+      "type": "microbe",
+      "name": "Haemophilus influenzae",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar chocolate com fator X e V",
+      "description": "Associado a otites, sinusites e em alguns casos pneumonia; algumas cepas invasivas (tipo b).",
+      "resistencia": [
+        "beta-lactamase producentes (resistência a ampicilina)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Amoxicilina-clavulanato",
+          "breakpoint": {
+            "S": "≤2/1 µg/mL",
+            "I": "-",
+            "R": "≥8/4 µg/mL"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "pseudomonas_aeruginosa",
+      "image": "./assets/images/pseudomonas_aeruginosa.png",
+      "type": "microbe",
+      "name": "Pseudomonas aeruginosa",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo alongado",
+      "cultivo": "37°C; ágar cetrimida",
+      "description": "Patógeno oportunista, frequentemente em infecções hospitalares e respiratórias; resistência intrínseca a múltiplas classes.",
+      "resistencia": [
+        "efluxo ativo",
+        "alterações em porinas",
+        "beta-lactamases (AmpC, carbapenemases)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Piperacilina-tazobactam",
+          "breakpoint": {
+            "S": "≤16 µg/mL",
+            "I": "32 µg/mL",
+            "R": "≥64 µg/mL"
+          },
+          "fonte": "EUCAST"
+        },
+        {
+          "nome": "Ceftazidima",
+          "breakpoint": {
+            "S": "≤8 µg/mL",
+            "I": "16 µg/mL",
+            "R": "≥32 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "acinetobacter_baumannii",
+      "image": "./assets/images/acinetobacter_baumannii.png",
+      "type": "microbe",
+      "name": "Acinetobacter baumannii",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo alongado",
+      "cultivo": "37°C, ágar sangue e ágar MacConkey (crescimento variável)",
+      "description": "Importante patógeno hospitalar multidroga-resistente, associado a pneumonia ventilador-associada e bacteremias.",
+      "resistencia": [
+        "carbapenemases (OXA-type)",
+        "resistência múltipla a aminoglicosídeos e quinolonas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Meropenem",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "listeria_monocytogenes",
+      "image": "./assets/images/listeria_monocytogenes.png",
+      "type": "microbe",
+      "name": "Listeria monocytogenes",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "bacilo alongado",
+      "cultivo": "37°C, ágar sangue; cresce a 4°C",
+      "description": "Causa listeriose, importante em gestantes e imunocomprometidos; transmissão por alimentos contaminados.",
+      "resistencia": [
+        "intrínseca a cefalosporinas de 3ª geração (baixa atividade)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Ampicilina",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+  "id": "yersinia_pestis",
+  "image": "./assets/images/yersinia_pestis.png",
+  "type": "microbe",
+  "name": "Yersinia pestis",
+  "classification": "Bactéria",
+  "gram": "Gram-",
+  "morfologia": "cocobacilo bipolar",
+  "cultivo": "28–30°C em ágar sangue, ágar MacConkey e ágar nutriente; crescimento mais lento a 37°C",
+  "description": "Agente etiológico da peste bubônica, septicêmica e pneumônica; transmitida principalmente por pulgas de roedores. Patógeno de alta virulência.",
+  "resistencia": [
+    "Geralmente suscetível a aminoglicosídeos e tetraciclinas",
+    "Casos raros de resistência a estreptomicina e tetraciclinas já foram descritos"
+  ],
+  "antibioticos": [
+    {
+      "nome": "Estreptomicina",
+      "breakpoint": {
+        "S": "≤4 µg/mL",
+        "I": "8 µg/mL",
+        "R": "≥16 µg/mL"
+      },
+      "fonte": "Referência"
+    },
+    {
+      "nome": "Gentamicina",
+      "breakpoint": {
+        "S": "≤2 µg/mL",
+        "I": "4 µg/mL",
+        "R": "≥8 µg/mL"
+      },
+      "fonte": "Referência"
+    },
+    {
+      "nome": "Doxiciclina",
+      "breakpoint": {
+        "S": "≤1 µg/mL",
+        "I": "2 µg/mL",
+        "R": "≥4 µg/mL"
+      },
+      "fonte": "Referência"
+    }
+  ]
+},
+
+    {
+      "id": "bordetella_pertussis",
+      "image": "./assets/images/bordetella_pertussis.png",
+      "type": "microbe",
+      "name": "Bordetella pertussis",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "cocobacilo",
+      "cultivo": "37°C, ágar Bordet-Gengou, ágar chocolate ou ágar sangue enriquecido",
+      "description": "Agente da coqueluche (tosse comprida); vacinação preventiva muito eficaz.",
+      "resistencia": [
+        "variações na sensibilidade a macrolídeos em raros relatos"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Azitromicina",
+          "breakpoint": {
+            "S": "≤0.5 µg/mL",
+            "I": "1 µg/mL",
+            "R": "≥2 µg/mL"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "gardnerella_vaginalis",
+      "image": "./assets/images/gardnerella_vaginalis.png",
+      "type": "microbe",
+      "name": "Gardnerella vaginalis",
+      "classification": "Bactéria",
+      "gram": "Gram- (variável)",
+      "morfologia": "cocobacilo",
+      "cultivo": "Crescimento em meio enriquecido; identificação por critérios clínicos",
+      "description": "Associada à vaginose bacteriana; crescimento em biofilme vaginal.",
+      "resistencia": [
+        "respostas terapêuticas variáveis a metronidazol e clindamicina"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Metronidazol",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "treponema_pallidum",
+      "image": "./assets/images/vdrl_treponema_pallidum.png",
+      "type": "microbe",
+      "name": "Treponema pallidum",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "espiralado (espiroqueta)",
+      "cultivo": "Não cultivável em meios artificiais; diagnóstico por sorologia e PCR",
+      "description": "Agente da sífilis; infecção sistêmica com múltiplas fases clínicas.",
+      "resistencia": [
+        "poucas evidências de resistência a penicilina; tratamento padrão é penicilina benzatina"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Penicilina benzatina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "borrelia_burgdorferi",
+      "type": "microbe",
+      "name": "Borrelia burgdorferi",
+      "classification": "Bactéria",
+      "gram": "Gram- (espiroqueta)",
+      "morfologia": "espiralado",
+      "cultivo": "Crescimento difícil em laboratório; diagnóstico sorológico/PCR",
+      "description": "Agente da doença de Lyme; transmitida por carrapatos Ixodes.",
+      "resistencia": [
+        "sensibilidade variável a tetraciclinas e cefalosporinas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Doxiciclina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "vibrio_cholerae",
+      "image": "./assets/images/vibrio_cholerae.png",
+      "type": "microbe",
+      "name": "Vibrio cholerae",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "vibrião",
+      "cultivo": "37°C, ágar TCBS",
+      "description": "Causa cólera; infecção gastrointestinal com diarreia aquosa intensa.",
+      "resistencia": [
+        "resistência a tetraciclinas e sulfonamidas em cepas regionais"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Doxiciclina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "candida_albicans",
+      "image": "./assets/images/candida_albicans.png",
+      "type": "microbe",
+      "name": "Candida albicans",
+      "classification": "Fungo",
+      "morfologia": "levedura oval",
+      "cultivo": "Sabouraud; 30–37°C",
+      "description": "Oportunista em mucosas; pode causar candidíase superficial e candidemia em imunocomprometidos.",
+      "resistencia": [
+        "resistência a fluconazol em algumas cepas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Fluconazol",
+          "breakpoint": {
+            "S": "≤2 µg/mL",
+            "I": "4 µg/mL",
+            "R": "≥8 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Anfotericina B",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "candida_glabrata",
+      "image": "./assets/images/candida_glabrata.png",
+      "type": "microbe",
+      "name": "Candida glabrata",
+      "classification": "Fungo",
+      "morfologia": "levedura oval",
+      "cultivo": "Sabouraud; 30–37°C",
+      "description": "Levedura oportunista; frequentemente menos sensível a azóis que C. albicans.",
+      "resistencia": [
+        "reduzida sensibilidade a fluconazol em muitas cepas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Anfotericina B",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        },
+        {
+          "nome": "Caspofungina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "cryptococcus_neoformans",
+      "image": "./assets/images/cryptococcus_neoformans.png",
+      "type": "microbe",
+      "name": "Cryptococcus neoformans",
+      "classification": "Fungo",
+      "morfologia": "levedura oval",
+      "cultivo": "Sabouraud; 30–37°C; cápsula visível em tinta da China",
+      "description": "Causa meningite criptocócica em imunocomprometidos; importância clínica em HIV/AIDS.",
+      "resistencia": [
+        "resistência variável a azóis em algumas cepas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Fluconazol",
+          "breakpoint": {
+            "S": "≤8 µg/mL",
+            "I": "16 µg/mL",
+            "R": "≥32 µg/mL"
+          },
+          "fonte": "CLSI"
+        },
+        {
+          "nome": "Anfotericina B",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "aspergillus_fumigatus",
+      "image": "./assets/images/aspergillus_fumigatus.png",
+      "type": "microbe",
+      "name": "Aspergillus fumigatus",
+      "classification": "Fungo",
+      "morfologia": "hifa filamentosa",
+      "cultivo": "Sabouraud; 25–37°C; apresenta morfologia uniforme",
+      "description": "Causa aspergilose pulmonar em imunocomprometidos e doença alérgica em sensíveis.",
+      "resistencia": [
+        "mutações em cyp51A (resistência a azóis)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Voriconazol",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        },
+        {
+          "nome": "Anfotericina B",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "mucor_circinelloides",
+      "image": "./assets/images/mucor_circinelloides.png",
+      "type": "microbe",
+      "name": "Mucor circinelloides",
+      "classification": "Fungo",
+      "morfologia": "hifa filamentosa",
+      "cultivo": "Sabouraud; crescimento rápido em mofo",
+      "description": "Associado a mucormicose em pacientes imunocomprometidos; terapia agressiva necessária.",
+      "resistencia": [
+        "resistência intrínseca a muitos azóis (anfotericina é preferida)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Anfotericina B",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "p_multocida",
+      "image": "./assets/images/Pasteurella_multocida.png",
+      "type": "microbe",
+      "name": "Pasteurella multocida",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar sangue",
+      "description": "Associada a infecções após mordidas de animais; geralmente sensível a penicilinas.",
+      "resistencia": [
+        "ocasional resistência plasmidial a beta-lactâmicos"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Amoxicilina-clavulanato",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "helicobacter_pylori",
+      "type": "microbe",
+      "name": "Helicobacter pylori",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curvo",
+      "cultivo": "Crescimento difícil; meios especiais microaerófilos",
+      "description": "Associado a gastrite crônica, úlcera péptica e risco aumentado de adenocarcinoma gástrico.",
+      "resistencia": [
+        "resistência a claritromicina em cepas resistentes (mutações 23S rRNA)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Claritromicina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "clostridium_difficile",
+      "image": "./assets/images/Clostridioides_difficile.png",
+      "type": "microbe",
+      "name": "Clostridioides difficile",
+      "classification": "Bactéria",
+      "gram": "Gram+",
+      "morfologia": "bacilo curto, formador de esporos",
+      "cultivo": "Anaeróbio; 37°C em meios seletivos",
+      "description": "Causa diarréia associada a antibióticos e colite pseudomembranosa; toxins A/B importantes.",
+      "resistencia": [
+        "várias cepas hipervirulentas e resistentes a fluoroquinolonas"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Vancomicina oral",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Guideline"
+        },
+        {
+          "nome": "Fidaxomicina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Guideline"
+        }
+      ]
+    },
+    {
+      "id": "mycobacterium_tuberculosis",
+      "image": "./assets/images/mycobacterium_tuberculosis.png",
+      "type": "microbe",
+      "name": "Mycobacterium tuberculosis",
+      "classification": "Bactéria",
+      "gram": "ácido-alcool resistente",
+      "morfologia": "bacilo alongado",
+      "cultivo": "Crescimento lento; meios especiais (Löwenstein-Jensen)",
+      "description": "Agente da tuberculose; tratamento de longa duração com múltiplas drogas.",
+      "resistencia": [
+        "MDR-TB (resistência a isoniazida e rifampicina)",
+        "XDR-TB (resistência extensa)"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Isoniazida",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Guideline"
+        },
+        {
+          "nome": "Rifampicina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Guideline"
+        }
+      ]
+    },
+    {
+      "id": "campylobacter_jejuni",
+      "image": "./assets/images/campylobacter_jejuni.png",
+      "type": "microbe",
+      "name": "Campylobacter jejuni",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curvo",
+      "cultivo": "37°C microaerófilo; ágar seletivo",
+      "description": "Causa gastroenterite; associado a síndrome de Guillain-Barré em alguns casos.",
+      "resistencia": [
+        "resistência a fluoroquinolonas em muitas regiões"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Azitromicina",
+          "breakpoint": {
+            "S": "-",
+            "I": "-",
+            "R": "-"
+          },
+          "fonte": "Referência"
+        }
+      ]
+    },
+    {
+      "id": "serratia_marcescens",
+      "image": "./assets/images/serratia_marcescens.png",
+      "type": "microbe",
+      "name": "Serratia marcescens",
+      "classification": "Bactéria",
+      "gram": "Gram-",
+      "morfologia": "bacilo curto",
+      "cultivo": "37°C, ágar MacConkey",
+      "description": "Patógeno oportunista relacionado a infecções hospitalares e contaminação de soluções.",
+      "resistencia": [
+        "produção de ESBLs e resistência intrínseca a alguns agentes"
+      ],
+      "antibioticos": [
+        {
+          "nome": "Cefepime",
+          "breakpoint": {
+            "S": "≤1 µg/mL",
+            "I": "2 µg/mL",
+            "R": "≥4 µg/mL"
+          },
+          "fonte": "CLSI"
+        }
+      ]
+    },
+    {
+      "id": "penicilina",
+      "type": "antibiotic",
+      "name": "Penicilina",
+      "classification": "Antibiótico - Beta-lactâmico",
+      "description": "Antibiótico beta-lactâmico usado para estreptococos e outras infecções sensíveis.",
+      "breakpoints": {
+        "Streptococcus": {
+          "S": "≤0.06 µg/mL",
+          "I": "0.12–1 µg/mL",
+          "R": "≥2 µg/mL"
+        },
+        "Staphylococcus": {
+          "S": "≤0.12 µg/mL",
+          "I": "0.25–1 µg/mL",
+          "R": "≥2 µg/mL"
+        }
+      }
+    },
+    {
+      "id": "ceftriaxona",
+      "type": "antibiotic",
+      "name": "Ceftriaxona",
+      "classification": "Antibiótico - Cefalosporina de 3ª geração",
+      "description": "Cefalosporina amplamente usada em infecções sistêmicas, meningites e infecções respiratórias.",
+      "breakpoints": {
+        "Enterobacterales": {
+          "S": "≤1 µg/mL",
+          "I": "2 µg/mL",
+          "R": "≥4 µg/mL"
+        },
+        "Neisseria": {
+          "S": "≤0.125 µg/mL",
+          "I": "0.25 µg/mL",
+          "R": "≥0.5 µg/mL"
+        }
+      }
+    },
+    {
+      "id": "ciprofloxacino",
+      "type": "antibiotic",
+      "name": "Ciprofloxacino",
+      "classification": "Antibiótico - Fluoroquinolona",
+      "description": "Fluoroquinolona com amplo espectro para infecções do trato urinário e gastrointestinais; uso restrito em algumas indicações.",
+      "breakpoints": {
+        "Enterobacterales": {
+          "S": "≤0.25 µg/mL",
+          "I": "0.5 µg/mL",
+          "R": "≥1 µg/mL"
+        },
+        "Pseudomonas": {
+          "S": "≤0.5 µg/mL",
+          "I": "1 µg/mL",
+          "R": "≥2 µg/mL"
+        }
+      }
+    },
+    {
+      "id": "vancomicina",
+      "type": "antibiotic",
+      "name": "Vancomicina",
+      "classification": "Antibiótico - Glicopeptídeo",
+      "description": "Antibiótico de última linha para Gram+ resistentes, incluindo MRSA e enterococos resistentes (com ressalvas).",
+      "breakpoints": {
+        "Staphylococcus": {
+          "S": "≤2 µg/mL",
+          "I": "-",
+          "R": "≥16 µg/mL"
+        },
+        "Enterococcus": {
+          "S": "≤4 µg/mL",
+          "I": "-",
+          "R": "≥32 µg/mL"
+        }
+      }
+    },
+    {
+      "id": "anfotericina_b",
+      "type": "antibiotic",
+      "name": "Anfotericina B",
+      "classification": "Antifúngico - Polieno",
+      "description": "Antifúngico de amplo espectro para infecções fúngicas invasivas; uso associado a toxicidade renal.",
+      "breakpoints": {
+        "Candida": {
+          "S": "-",
+          "I": "-",
+          "R": "-"
+        },
+        "Aspergillus": {
+          "S": "-",
+          "I": "-",
+          "R": "-"
+        }
+      }
+    }
+  ]
+}
